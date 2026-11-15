@@ -32,3 +32,5 @@ def get_product(product_id: int):
         if product["id"] == product_id:
             return product
     raise HTTPException(status_code=404, detail="Product not found")
+
+# tp4 cache test
